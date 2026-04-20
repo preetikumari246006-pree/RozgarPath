@@ -7,4 +7,5 @@ print(rozgar_path(user, degree))
 for career in data.careers:
     print("Career:", career["career_name"])
     print("Skills:", ", ".join(career["skills_needed"]))
+    print("First Step:", career["first_step"])
     print()
