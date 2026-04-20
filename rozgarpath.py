@@ -5,5 +5,5 @@ user = input("Enter your name: ")
 degree = input("Enter your degree: ")
 print(rozgar_path(user, degree))
 for career in data.careers:
-    print(career["career_name"])
-    print(career["skills_needed"])
+    print("Career:", career["career_name"])
+    print("Skills:", ", ".join(career["skills_needed"]))
