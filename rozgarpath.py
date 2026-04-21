@@ -16,3 +16,6 @@ else:
     print("Career:", selected["career_name"])
     print("Skills:", ", ".join(selected["skills_needed"]))
     print("First Step:", selected["first_step"])
+    print("Free Resources:")
+    for resource in selected["resources"]:
+        print("-", resource)
