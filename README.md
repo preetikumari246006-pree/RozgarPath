@@ -22,16 +22,11 @@ a business degree to suggest real career paths —
 especially for people in agriculture-based regions.
 
 ## ⚙️ What It Does?
-- User enters their degree → gets career suggestions
-- Shows skills needed for each career path
-- Suggests free resources to learn those skills
+- User enters their name and degree
+- Shows 3 career paths matching their background
+- User picks one career
+- System shows skills needed
+- Displays free learning resources
+- Saves user progress
 
 ## 🚀 How To Run?
-python rozgarpath.py
-
-## 🛠️ Built With
-- Python
-
-## 👨‍💻 Author
-Preeti Kumari
-GitHub: https://github.com/preetikumari246006-pree
